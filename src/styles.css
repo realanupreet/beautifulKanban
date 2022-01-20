@@ -1,0 +1,72 @@
+* {
+  font-family: "Urbanist", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(53, 52, 52);
+}
+body {
+  background-color: rgb(236, 236, 236);
+}
+.kanban {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.3em auto;
+}
+.kanban-column {
+  padding: 1em;
+  background-color: rgb(247, 247, 247);
+  border: rgb(53, 52, 52) solid 0.1em;
+  border-radius: 0.6em;
+}
+.kanban-column-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  color: rgb(73, 69, 69);
+  font-size: 0.9em;
+  border-radius: 0.6em;
+  border: rgb(53, 52, 52) solid 0.1em;
+  display: inline-block;
+  padding: 0.7em;
+  background-color: rgb(255, 252, 250);
+  margin-bottom: 0.95em;
+}
+.kanban-text {
+  padding: 0.7em;
+  border-radius: 0.6em;
+  background-color: rgb(255, 240, 231);
+  margin-bottom: 0.8em;
+}
+.kanban-items-input {
+  padding: 0.7em;
+  border: none;
+  border-radius: 0.6em;
+  font-size: 1em;
+  box-shadow: rgba(15, 15, 15, 0.014) 0px 3px 5px;
+  margin-bottom: 0.8em;
+}
+.kanban-column button {
+  background: rgb(27, 27, 27);
+  color: inherit;
+  border: none;
+  padding: 0.7em 1em;
+  border-radius: 0.6em;
+  color: rgb(255, 240, 231);
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  width: 100%;
+}
+.dropzone {
+  height: 0.2em;
+  transition: 0.1s;
+  border-radius: 0.6em;
+  margin: 0.2em 0em;
+}
+.dropzone-active {
+  height: 1em;
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 0.6em;
+  margin: 0.2em 0em;
+}

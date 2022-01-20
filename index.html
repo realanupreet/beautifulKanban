@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>beautifulKanban</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <div class="kanban">
+      <div class="kanban-column">
+        <div class="kanban-column-title">Not Started</div>
+        <div class="kanban-items">
+          <p class="kanban-text" contenteditable>1. Kanban item</p>
+          <input
+            type="text"
+            class="kanban-items-input"
+            placeholder="wash dishes"
+          />
+          <!-- <div class="dropzone"></div>
+          <div class="dropzone-active"></div> -->
+        </div>
+        <button class="kanban-add-items">Add</button>
+      </div>
+    </div>
+  </body>
+</html>
