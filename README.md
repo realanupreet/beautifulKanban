@@ -1,2 +1,2 @@
 # beautifulKanban
-Created with CodeSandbox
+In progress 🐱
